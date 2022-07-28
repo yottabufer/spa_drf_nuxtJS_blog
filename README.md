@@ -24,7 +24,7 @@ source venv_spa_drf_blog/bin/activate
 ```
 + Windows
 ```python
-venv\Scripts\activate.bat 
+venv_spa_drf_blog\Scripts\activate.bat 
 ```
 5. Устанавливаем пакеты для проекта
 ```python
