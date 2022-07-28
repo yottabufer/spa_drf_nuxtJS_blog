@@ -22,5 +22,5 @@ source venv_spa_drf_blog/bin/activate
 ```
 5. Устанавливаем пакеты для проекта
 ```python
-pip install -r requirements
+pip install -r requirements.txt
 ```
