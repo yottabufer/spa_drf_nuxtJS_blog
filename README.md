@@ -38,5 +38,19 @@ python manage.py runserver
 >> Проект может начать ругаться на невозмонжность импорта "ugettext_lazy". Это из-за модуля taggit_serializer, хоть и "ugettext_lazy" не используется с 3 версии джанго, taggit до сих пор не исправили это
 7. ПРОФИТ! Вы велеколепны, с бэк-ендом покончено
 
+# Устанока front-end
 
-
+1. Установка nodejs и npm
+> Инструкция для других дистрибутивов
+>> https://nodejs.org/en/download/package-manager/
+```python
+pacman -S nodejs npm
+```
+2. Установка пакетов из проекта
+```python
+npm install
+```
+3. Запуск фронта
+```python
+npm run dev
+```
