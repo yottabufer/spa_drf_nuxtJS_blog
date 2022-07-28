@@ -40,8 +40,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'core',
     'user',
-    'ckeditor',
-    'ckeditor_uploader',
+    'django_ckeditor_5',
     'taggit',
     'taggit_serializer',
 ]
@@ -74,6 +73,12 @@ TEMPLATES = [
         },
     },
 ]
+
+CACHES = {
+    'default': {
+        'BACKEND': 'django.core.cache.backends.locmem.LocMemCache',
+    }
+}
 
 WSGI_APPLICATION = 'api.wsgi.application'
 
