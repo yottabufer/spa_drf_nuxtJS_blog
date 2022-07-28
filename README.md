@@ -7,14 +7,17 @@
 1. Создаём папку для клонирования проекта
 
 ```python
-
 mkdir spa_drf_nuxtJS_blog
-
 ```
 2. Переходим в папку созданную папку
-    cd spa_drf_nuxtJS_blog
+```python
+cd spa_drf_nuxtJS_blog
+```
 3. Клонируем проект с репозитория
-    git clone https://github.com/yottabufer/spa_drf_nuxtJS_blog.git
+```python
+git clone https://github.com/yottabufer/spa_drf_nuxtJS_blog.git
+```
 4. Создаём виртуально окружение для работы с проектом
-    python -m venv venv_spa_drf_blog
-5.
+```python
+python -m venv venv_spa_drf_blog
+```
