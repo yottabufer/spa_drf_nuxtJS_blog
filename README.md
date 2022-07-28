@@ -24,3 +24,6 @@ source venv_spa_drf_blog/bin/activate
 ```python
 pip install -r requirements.txt
 ```
+
+> [!IMPORTANT]
+> Проект может начать ругаться на отсутствие "ugettext_lazy", это изза модуля taggit_serializer, хоть и "ugettext_lazy" не используется с 3 версии джанго, > taggit до сих пор не исправили это
