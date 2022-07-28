@@ -24,21 +24,11 @@ source venv_spa_drf_blog/bin/activate
 ```python
 pip install -r requirements.txt
 ```
+6. Проверяем всё ли в порядке
+```python
+python manage.py runserver
+```
+> ВАЖНО
+>> Проект может начать ругаться на невозмонжность импорта "ugettext_lazy". Это из-за модуля taggit_serializer, хоть и "ugettext_lazy" не используется с 3 версии джанго, taggit до сих пор не исправили это
 
-> [!IMPORTANT]
-> Проект может начать ругаться на отсутствие "ugettext_lazy", это изза модуля taggit_serializer, хоть и "ugettext_lazy" не используется с 3 версии джанго, > taggit до сих пор не исправили это
 
-> [!NOTE]
-> Information the user should notice even if skimming.
-
-> [!TIP]
-> Optional information to help a user be more successful.
-
-> [!IMPORTANT]
-> Essential information required for user success.
-
-> [!CAUTION]
-> Negative potential consequences of an action.
-
-> [!WARNING]
-> Dangerous certain consequences of an action.
