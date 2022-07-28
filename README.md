@@ -21,3 +21,7 @@ git clone https://github.com/yottabufer/spa_drf_nuxtJS_blog.git
 ```python
 python -m venv venv_spa_drf_blog
 ```
+5. Активируем виртуальное окружение
+```python
+source venv_spa_drf_blog/bin/activate
+```
